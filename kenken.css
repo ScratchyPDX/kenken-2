@@ -1,0 +1,79 @@
+table {
+    border-collapse: collapse;
+}
+table:focus {
+    outline: none;
+}
+td {
+    font-size: 30px;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: 1px solid black;
+}
+.label {
+    position: absolute;
+    top: -3px;
+    left: 3px;
+    font-size: 15px;
+}
+.label .operator {
+    font-size: 18px;
+}
+.possible {
+    font-size: 10px;
+    color: gray;
+}
+.cursorShadow {
+    background-color: lightyellow;
+}
+.cursor {
+    background-color: yellow;
+}
+.softLit {
+    background-color: lightcyan;
+}
+.lit {
+    background-color: cyan;
+}
+.good {
+    background-color: lightgreen;
+}
+.bad {
+    background-color: red;
+}
+.wall-top {
+    border-top: 3px solid black;
+}
+.wall-left {
+    border-left: 3px solid black;
+}
+.wall-bottom {
+    border-bottom: 3px solid black;
+}
+.wall-right {
+    border-right: 3px solid black;
+}
+.solver-message {
+    text-align: center;
+}
+.solver .label {
+    top: 0;
+    text-align: left
+}
+.solver .message {
+    font-size: 20px;
+}
+.solver .possibles {
+    color: gray;
+    font-size: 18px;
+}
+
+select {
+    margin-top: 10px;
+}
+
+.help p, .solver p {
+    margin: 0;
+}

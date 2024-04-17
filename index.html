@@ -21,7 +21,7 @@
     <div class="clock">
         {{ time | timer }} <span ng-show="solved">SOLVED!</span>
     </div>
-    <table id="board" tabindex="0" ng-blur="cursorHidden=true" ng-focus="cursorHidden=false">
+    <table id="board" ng-blur="cursorHidden=true" ng-focus="cursorHidden=false">
         <tr ng-repeat="row in board">
             <td ng-repeat="cell in row"
                 kenken-cell-walls
